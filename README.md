@@ -1,6 +1,6 @@
 # Escolha seu plano
 
-Este projeto exibe opções de planos de assinatura para usuários, permitindo a alternância entre pagamento mensal e anual. O design é responsivo e utiliza TailwindCSS para estilização.
+Este projeto apresenta diferentes planos de assinatura para os usuários, destacando os benefícios de cada um. Ele permite alternar entre os valores de pagamento mensal e anual, garantindo flexibilidade na escolha. Desenvolvido com React e estilizado com TailwindCSS, o design é responsivo e adaptável a diferentes dispositivos, proporcionando uma experiência fluida e intuitiva.
 
 ## 🤓 Antes de começar
 
