@@ -1,54 +1,64 @@
-# React + TypeScript + Vite
+# Escolha seu plano
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto exibe opções de planos de assinatura para usuários, permitindo a alternância entre pagamento mensal e anual. O design é responsivo e utiliza TailwindCSS para estilização.
 
-Currently, two official plugins are available:
+## 🤓 Antes de começar
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para criar o projeto do zero, siga os passos abaixo:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+1. Instale as dependências 
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+2. Inicie o servidor
+```bash
+npm run dev
 ```
+
+
+
+## 🔨 Requisitos
+
+- Exibição de três planos de assinatura (Grátis, PRO e Empresas)
+
+- Alternância entre pagamento mensal e anual (com desconto de 20%)
+
+- Botões de ação: "Continuar" para o plano gratuito e "Comece Agora" para planos pagos
+
+- Design responsivo e moderno
+
+## 🔨 Desafio extra para quem quer ir além
+
+- Criar modal de confirmação de assinatura
+
+- Melhorar animações e transições
+
+## 🎨 Design Sugerido
+
+Temos uma sugestão de design no Figma. Entretanto, fique à vontade para montar a aplicação conforme a sua criatividade.
+
+### Figma
+
+🔗 [Link do design]()
+
+## 👉🏽 Sobre esse mini-projeto
+
+### O que você irá praticar:
+
+#### React
+- Composição de componentes reutilizáveis
+
+- Manipulação de estado para troca entre planos mensais e anuais
+
+#### TailwindCSS
+- Estilização responsiva e customização de temas
+
+- Aplicação de classes utilitárias para layout e tipografia
+
+#### Pré-requisitos
+- Conhecimento básico de React (componentes, props e estado)
+
+- Noções básicas de TailwindCSS (classes utilitárias e configuração)
+
+
