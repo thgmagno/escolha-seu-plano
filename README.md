@@ -1,21 +1,23 @@
-# Escolha seu plano
 
+# Escolha seu plano
 Este projeto apresenta diferentes planos de assinatura para os usuários, destacando os benefícios de cada um. Ele permite alternar entre os valores de pagamento mensal e anual, garantindo flexibilidade na escolha. Desenvolvido com React e estilizado com TailwindCSS, o design é responsivo e adaptável a diferentes dispositivos, proporcionando uma experiência fluida e intuitiva.
+
 
 ## 🤓 Antes de começar
 
 Para criar o projeto do zero, siga os passos abaixo:
 
 1. Instale as dependências 
+
 ```bash
 npm install
 ```
 
 2. Inicie o servidor
+
 ```bash
 npm run dev
 ```
-
 
 
 ## 🔨 Requisitos
@@ -27,7 +29,7 @@ npm run dev
 - É necessário ter alternância entre pagamento mensal e anual (com desconto de 20%)
 
 **Requisito 3:**
-- Fáca alguns botões de ação: Um "Continuar" para o plano gratuito e outro "Comece Agora" para planos pagos
+- Faça alguns botões de ação: Um "Continuar" para o plano gratuito e outro "Comece Agora" para planos pagos
 
 **Requisito 4:**
 - É necessário que o design seja responsivo
@@ -64,5 +66,3 @@ Temos uma sugestão de design no Figma. Entretanto, fique à vontade para montar
 - Conhecimento básico de React (componentes, props e estado)
 
 - Noções básicas de TailwindCSS (classes utilitárias e configuração)
-
-
