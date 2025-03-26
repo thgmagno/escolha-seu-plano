@@ -20,13 +20,17 @@ npm run dev
 
 ## 🔨 Requisitos
 
-- Exibição de três planos de assinatura (Grátis, PRO e Empresas)
+**Requisito 1:**
+- Crie cards para exibição de três planos de assinatura (Grátis, PRO e Empresas)
 
-- Alternância entre pagamento mensal e anual (com desconto de 20%)
+**Requisito 2:**
+- É necessário ter alternância entre pagamento mensal e anual (com desconto de 20%)
 
-- Botões de ação: "Continuar" para o plano gratuito e "Comece Agora" para planos pagos
+**Requisito 3:**
+- Fáca alguns botões de ação: Um "Continuar" para o plano gratuito e outro "Comece Agora" para planos pagos
 
-- Design responsivo e moderno
+**Requisito 4:**
+- É necessário que o design seja responsivo
 
 ## 🔨 Desafio extra para quem quer ir além
 
