@@ -1,68 +1,36 @@
+```markdown
+# 📌 Escolha seu Plano
 
-# Escolha seu plano
-Este projeto apresenta diferentes planos de assinatura para os usuários, destacando os benefícios de cada um. Ele permite alternar entre os valores de pagamento mensal e anual, garantindo flexibilidade na escolha. Desenvolvido com React e estilizado com TailwindCSS, o design é responsivo e adaptável a diferentes dispositivos, proporcionando uma experiência fluida e intuitiva.
+Este projeto foi desenvolvido como parte de um desafio proposto pelo [Codante](https://codante.io/), mantendo a autoria da plataforma e seguindo suas diretrizes. O objetivo é apresentar opções de planos de assinatura, permitindo alternância entre pagamento mensal e anual.
 
+## 🛠 Tecnologias Utilizadas
+- **React**: Estruturação dos componentes.
+- **Next.js**: Framework para a renderização do lado servidor.
+- **TailwindCSS**: Estilização responsiva e customizada.
 
-## 🤓 Antes de começar
+## 🎯 Funcionalidades
+- Exibição de três planos de assinatura: **Grátis, PRO e Empresas**.
+- Alternância entre pagamento **mensal** e **anual** (com desconto de 20%).
+- Botões de ação: "Continuar" para o plano gratuito e "Comece Agora" para planos pagos.
+- Design responsivo adaptado para diferentes dispositivos.
 
-Para criar o projeto do zero, siga os passos abaixo:
+## 🚀 Como Executar
+1. Instale as dependências:
+   ```sh
+   npm install
+   ```
+2. Inicie o servidor:
+   ```sh
+   npm run dev
+   ```
 
-1. Instale as dependências 
+## 🎨 Design
+O design sugerido está disponível no Figma pelo Codante.
 
-```bash
-npm install
+## 🌐 Deploy
+Veja o projeto em funcionamento no link abaixo:
+[https://escolha-seu-plano.vercel.app/](https://escolha-seu-plano.vercel.app/)
+
+## 📜 Observação
+Este projeto foi desenvolvido seguindo os requisitos do Codante. O desafio original pertence à plataforma, mas a implementação foi realizada por mim.
 ```
-
-2. Inicie o servidor
-
-```bash
-npm run dev
-```
-
-
-## 🔨 Requisitos
-
-**Requisito 1:**
-- Crie cards para exibição de três planos de assinatura (Grátis, PRO e Empresas)
-
-**Requisito 2:**
-- É necessário ter alternância entre pagamento mensal e anual (com desconto de 20%)
-
-**Requisito 3:**
-- Faça alguns botões de ação: Um "Continuar" para o plano gratuito e outro "Comece Agora" para planos pagos
-
-**Requisito 4:**
-- É necessário que o design seja responsivo
-
-## 🔨 Desafio extra para quem quer ir além
-
-- Criar modal de confirmação de assinatura
-
-- Melhorar animações e transições
-
-## 🎨 Design Sugerido
-
-Temos uma sugestão de design no Figma. Entretanto, fique à vontade para montar a aplicação conforme a sua criatividade.
-
-### Figma
-
-🔗 [Link do design](https://www.figma.com/community/file/1486791790033291891)
-
-## 👉🏽 Sobre esse mini-projeto
-
-### O que você irá praticar:
-
-#### React
-- Composição de componentes reutilizáveis
-
-- Manipulação de estado para troca entre planos mensais e anuais
-
-#### TailwindCSS
-- Estilização responsiva e customização de temas
-
-- Aplicação de classes utilitárias para layout e tipografia
-
-#### Pré-requisitos
-- Conhecimento básico de React (componentes, props e estado)
-
-- Noções básicas de TailwindCSS (classes utilitárias e configuração)
