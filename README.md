@@ -1,4 +1,3 @@
-```markdown
 # 📌 Escolha seu Plano
 
 Este projeto foi desenvolvido como parte de um desafio proposto pelo [Codante](https://codante.io/), mantendo a autoria da plataforma e seguindo suas diretrizes. O objetivo é apresentar opções de planos de assinatura, permitindo alternância entre pagamento mensal e anual.
@@ -33,4 +32,3 @@ Veja o projeto em funcionamento no link abaixo:
 
 ## 📜 Observação
 Este projeto foi desenvolvido seguindo os requisitos do Codante. O desafio original pertence à plataforma, mas a implementação foi realizada por mim.
-```
