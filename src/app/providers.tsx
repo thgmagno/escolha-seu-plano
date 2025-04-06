@@ -44,9 +44,7 @@ function AppProvider({
   appApiUrl: string
 }) {
   useEffect(() => {
-    const hasKey = sessionStorage.getItem(
-      `app-api-fetcher-${process.env.APP_NAME}`,
-    )
+    const hasKey = sessionStorage.getItem(`app-api-fetcher-${appName}`)
 
     if (!hasKey) {
       const sendVisitData = async () => {
@@ -82,7 +80,7 @@ function AppProvider({
         navigator.sendBeacon(appApiUrl, data)
 
         sessionStorage.setItem(
-          `app-api-fetcher-${process.env.APP_NAME}`,
+          `app-api-fetcher-${appName}`,
           Date.now().toString(),
         )
       }
