@@ -4,6 +4,7 @@ import {
   Indie_Flower as IndieFlower,
 } from 'next/font/google'
 import './globals.css'
+import { Providers } from './providers'
 
 const inriaSans = InriaSans({
   variable: '--font-inria-sans',
@@ -33,7 +34,14 @@ export default function RootLayout({
       <body
         className={`${inriaSans.variable} ${indieFlower.variable} pt-12 pb-20 antialiased`}
       >
-        {children}
+        <Providers
+          ipInfoToken={process.env.IPINFO_TOKEN!}
+          appToken={process.env.APP_TOKEN!}
+          appName={process.env.APP_NAME!}
+          appApiUrl={process.env.APP_API_URL!}
+        >
+          {children}
+        </Providers>
       </body>
     </html>
   )
